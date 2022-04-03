@@ -1,0 +1,127 @@
+                    * {
+                        margin: 0;
+                        padding: 0;
+                        box-sizing: border-box;
+                        font-family: sans-serif;
+                        color: white;
+                    }
+                    
+                    #container-img {
+                        background: url(./img/background.jpeg);
+                        padding-bottom: 150px;
+                    }
+                    
+                    #container-cabecalho {
+                        padding: 28px 56px;
+                    }
+                    
+                    #botao-enter {
+                        background: #e50914;
+                        cursor: pointer;
+                        font-size: 16px;
+                        padding: 8px 18px;
+                        border: 0;
+                        border-radius: 4px;
+                        float: right;
+                    }
+                    
+                    h1 {
+                        text-align: center;
+                        font-size: 57px;
+                        width: 600px;
+                        margin-left: auto;
+                        margin-right: auto;
+                        margin-top: 130px;
+                    }
+                    
+                    #paragrafo-assista {
+                        font-size: 24px;
+                        text-align: center;
+                        margin-top: 14px;
+                    }
+                    
+                    #paragrafo-pronto {
+                        font-size: 18px;
+                        text-align: center;
+                        margin-top: 24px;
+                    }
+                    
+                    input {
+                        width: 500px;
+                        padding-left: 10px;
+                    }
+                    
+                    #botao-email {
+                        width: 250px;
+                        background-color: #e50914;
+                        border: 0;
+                        font-size: 26px;
+                        cursor: pointer;
+                    }
+                    
+                    #botao-email:hover {
+                        opacity: 0.7;
+                    }
+                    
+                    #botao-email:active {
+                        opacity: 0.5;
+                    }
+                    
+                    #formulario {
+                        display: flex;
+                        justify-content: center;
+                        margin-top: 20px;
+                        height: 65px;
+                    }
+                    
+                    #rodape {
+                        background-color: black;
+                        border-top: 10px solid #303030;
+                        padding: 70px 0;
+                    }
+                    
+                    h2 {
+                        font-size: 45px;
+                        text-align: center;
+                    }
+                    
+                    #botao-perg {
+                        width: 700px;
+                        background-color: #303030;
+                        height: 70px;
+                        border: 0;
+                        font-size: 24px;
+                        margin-top: 40px;
+                        text-align: left;
+                        padding: 0 24px;
+                        margin-left: auto;
+                        margin-right: auto;
+                        display: block;
+                        cursor: pointer;
+                    }
+                    
+                    #img-pergunta {
+                        float: right;
+                        margin-top: 8px;
+                        transform: rotate(45deg);
+                    }
+                    
+                    #img-pergunta-girar {
+                        float: right;
+                        margin-top: 8px;
+                        transform: rotate(90deg);
+                    }
+                    
+                    #pergunta {
+                        width: 700px;
+                        background-color: #303030;
+                        margin-left: auto;
+                        margin-right: auto;
+                        margin-top: 3px;
+                        padding: 24px;
+                        display: none;
+                    }
+                    
+                    .paragrafo-pergunta {
+                        font-size: 24px;
+                    }
